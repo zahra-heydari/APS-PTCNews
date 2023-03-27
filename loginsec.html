@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="logsec.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <div id="question">
+        <section class="firstform">
+          <div id="one">
+            <a href="index.html" class="logo">
+              <i class="fa-solid fa-p iconoheader"></i>
+              <i class="fa-regular fa-t iconoheader fw-bolder"></i>
+              <i class="fa-solid fa-c iconoheader fw-bolder"></i>
+            </a>
+            <p id="ps">Sign in</p>
+          </div>
+          <form id="formInFirstform" style="margin-top: 50px">
+            <div>
+              <label id="email"></label>
+              <input
+                type="text"
+                placeholder="Email or username"
+                id="input1"
+                name="input1"
+              />
+            </div>
+            <div>
+              <label id="pass"></label>
+              <input
+                type="text"
+                placeholder="password"
+                id="input2"
+                name="input2"
+              />
+            </div>
+            <button id="login">Sign in</button>
+          </form>
+          <a href="#" id="first">Need help signing in?</a>
+          <div class="last">
+            <p>Dont have a PTC account?</p>
+            <p><a href="#" id="second" class="sign">Register now</a></p>
+          </div>
+        </section>
+        <section class="secondform" style="display: none">
+          <div id="two">
+            <a href="index.html" class="logo">
+              <i class="fa-solid fa-p iconoheader"></i>
+              <i class="fa-regular fa-t iconoheader fw-bolder"></i>
+              <i class="fa-solid fa-c iconoheader fw-bolder"></i>
+            </a>
+            <p id="ps">Sign in</p>
+          </div>
+          <p style="margin-top: 50px">
+            Lets start.This account is for someone who is...
+          </p>
+          <div class="twobut">
+            <button>Under 16</button>
+            <button class="over">16 or over</button>
+          </div>
+        </section>
+        <section class="thirdform" style="display: none">
+          <div id="three">
+            <a href="index.html" class="logo">
+              <i class="fa-solid fa-p iconoheader"></i>
+              <i class="fa-regular fa-t iconoheader fw-bolder"></i>
+              <i class="fa-solid fa-c iconoheader fw-bolder"></i>
+            </a>
+            <p id="ps">Sign in</p>
+          </div>
+          <form action="" class="formquestion" style="margin-top: 50px">
+            <fieldset>
+              <legend>Whats your date of birth?</legend>
+              <div class="Day">
+                <label id="DayLabel"></label>
+                <input
+                  type="text"
+                  placeholder="Day"
+                  id="DayInput"
+                  name="DayInput"
+                />
+              </div>
+              <div class="Month">
+                <label id="MonthLabel"></label>
+                <input
+                  type="text"
+                  id="MonthInput"
+                  placeholder="Month"
+                  name="MonthInput"
+                />
+              </div>
+              <div class="Year">
+                <label id="YearLabel"></label>
+                <input
+                  type="text"
+                  placeholder="Year"
+                  id="YearInput"
+                  name="YearInput"
+                />
+              </div>
+            </fieldset>
+            <button id="continue">Continue</button>
+          </form>
+        </section>
+        <section class="fourform" style="display: none">
+          <div id="four">
+            <a href="index.html" class="logo">
+              <i class="fa-solid fa-p iconoheader"></i>
+              <i class="fa-regular fa-t iconoheader fw-bolder"></i>
+              <i class="fa-solid fa-c iconoheader fw-bolder"></i>
+            </a>
+            <p id="ps">Sign in</p>
+          </div>
+          <form action="" style="margin-top: 50px">
+            <div>
+              <label id="email2"></label>
+              <input
+                type="text"
+                placeholder="Email or username"
+                id="input3"
+                required
+              />
+            </div>
+            <div>
+              <label id="pass2"></label>
+              <input type="text" placeholder="password" id="input4" required />
+            </div>
+            <p>passwords need to include...</p>
+            <ul>
+              <li>At least 8 characters</li>
+              <li>At least one letter</li>
+              <li>At least one number or symbol</li>
+            </ul>
+            <label>Country</label>
+            <select name="country" id="country"></select>
+            <button class="register">Register</button>
+          </form>
+        </section>
+      </div>
+      <div id="images">
+        <div id="img1">
+          <img
+            src="https://media-cldnry.s-nbcnews.com/image/upload/t_focal-460x230,f_auto,q_auto:best/rockcms/2023-03/230322-east-high-school-denver-ew-110p-1cb8a3.jpg"
+            alt=""
+          />
+        </div>
+        <div id="img2">
+          <img
+            src="https://media-cldnry.s-nbcnews.com/image/upload/t_focal-460x230,f_auto,q_auto:best/rockcms/2023-03/230323-xi-putin-mb-0944-1b447d.jpg"
+            alt=""
+          />
+        </div>
+        <div id="lastDiv">
+          <div id="img3">
+            <img
+              src="https://media-cldnry.s-nbcnews.com/image/upload/t_focal-460x460,f_auto,q_auto:best/rockcms/2023-03/230323-tiktok-ceo-shou-zi-chew-mjf-1010-copy-7467b7.jpg"
+              alt=""
+            />
+          </div>
+          <div id="img4">
+            <img
+              src="https://media-cldnry.s-nbcnews.com/image/upload/t_focal-460x460,f_auto,q_auto:best/rockcms/2023-03/230323-southwest-mb-0936-c015db.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="scriptlogin.js"></script>
+  </body>
+</html>

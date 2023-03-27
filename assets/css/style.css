@@ -1,0 +1,30 @@
+@font-face {
+  font-family: BTitr;
+  src: url(assets/fonts/BTitrBd.ttf);
+}
+
+@font-face {
+  font-family: BZar;
+  src: url(assets/fonts/BZar.ttf);
+}
+
+body {
+  font-family: BZar;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#name {
+  font-family: BTitr;
+}
+
+#about {
+  text-align: justify;
+}
+#links {
+  font-size: 1.5vw;
+  margin-bottom: 50px;
+}

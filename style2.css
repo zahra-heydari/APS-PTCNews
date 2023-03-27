@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+}
+main {
+  background-color: #edf9ff;
+  width: 100%;
+  height: 553px;
+  position: relative;
+}
+#rightHead {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  right: 0%;
+  top: 10px;
+  white-space: nowrap;
+}
+#rightHead div:first-child p {
+  margin-top: 0;
+}
+.question {
+  display: flex;
+  margin-left: 2px;
+  gap: 5px;
+
+  align-items: center;
+}
+.panda {
+  display: flex;
+  width: 30%;
+  align-items: center;
+}
+.panda img {
+  height: 45px;
+}
+.panda p {
+  margin: 0;
+}
+.question img {
+  height: 20px;
+}
+.question p {
+  margin: 0;
+}
+.header {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  background-color: #edf9ff;
+}
+#img2 {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  display: block;
+  height: 400px;
+}
+.eagle {
+  display: flex;
+  justify-content: center;
+}
+.eagle img {
+  height: 180px;
+}
+#img1 {
+  /* position: absolute;
+  top: 0px; */
+  /* left: 31%; */
+  /* margin: 0 auto; */
+  /* width: 600px; */
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+#img3 {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.h3 {
+  display: flex;
+  justify-content: center;
+  font-family: SelnaRegular, MontserratMedium;
+  top: 280px;
+  font-size: 31px;
+}
+.gif {
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}
+.gif > div {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 380px;
+  /* left: 39%; */
+  background-color: #533c1d;
+  border-radius: 50px;
+  padding: 12px 22px;
+  margin-top: 10px;
+}
+.gif p {
+  font-size: 14px;
+  color: white;
+}
+.gif img {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-right: 12px;
+}
+#img4 {
+  position: absolute;
+  bottom: 20px;
+  right: 0px;
+}
+#img5 {
+  position: absolute;
+  left: 300px;
+  top: 350px;
+  width: 40px;
+}
+#img6 {
+  position: absolute;
+  right: 300px;
+  top: 350px;
+  width: 40px;
+}
+#img7 {
+  position: absolute;
+  left: 360px;
+  top: 370px;
+  width: 60px;
+}
+#img8 {
+  position: absolute;
+  right: 20%;
+  top: 400px;
+  width: 40px;
+  height: 35px;
+}
+#img9 {
+  position: absolute;
+  right: 18%;
+  top: 380px;
+  width: 40px;
+  height: 50px;
+}
+.sound {
+  position: absolute;
+  bottom: 25px;
+  right: 20px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.sound span {
+  color: white;
+  padding: 15px;
+  width: 250px;
+  padding-top: 0;
+  margin-right: 2px;
+  background-color: black;
+  border-radius: 50px;
+}
+.sound div {
+  position: relative;
+  right: 50px;
+  bottom: 5px;
+}
+.mute {
+  width: 65px;
+  position: absolute;
+  top: 0;
+  height: 65px;
+}
+.play {
+  width: 65px;
+  position: absolute;
+  top: 0;
+  height: 65px;
+}
+.audio {
+  visibility: hidden;
+  position: absolute;
+}
+
+@media (width < 800px) {
+  #img2 {
+    display: none;
+  }
+
+  .sound > span {
+    display: none;
+  }
+
+  #img4 {
+    display: none;
+  }
+
+  #rightHead {
+    display: none;
+  }
+}
+
+@media (width < 600px) {
+  #img1 {
+    height: auto;
+  }
+
+  #img1 img {
+    width: 80%;
+    height: 80%;
+  }
+}

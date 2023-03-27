@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="style3.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="div1">
+        <div class="secnav">
+          <section>
+            <a href="index.html" class="logo">
+              <i class="fa-solid fa-p iconoheader"></i>
+              <i class="fa-regular fa-t iconoheader fw-bolder"></i>
+              <i class="fa-solid fa-c iconoheader fw-bolder"></i>
+            </a>
+            <div class="div2">
+              <i class="fa-solid fa-user"></i>
+              <a href="loginsec.html">Sign Up/Login</a>
+            </div>
+          </section>
+          <nav>
+            <ul class="ul1">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="music.html">Music</a></li>
+              <li><a href="weather.html">Weather</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div id="search">
+          <i class="fa-solid fa-bars hamburger"></i>
+        </div>
+      </div>
+      <ul class="remove">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="weather.html">Weather</a></li>
+        <li><a href="">About</a></li>
+      </ul>
+    </header>
+    <main>
+      <div class="maindiv1">
+        <h2>WEATHER</h2>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter City"
+            name="search"
+            id="search"
+          />
+          <button>
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </button>
+        </form>
+      </div>
+      <div class="maindiv2">
+        <div class="locatName"></div>
+        <div #swiperRef="" class="swiper mySwiper">
+          <ul class="swiper-wrapper"></ul>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <div class="maindiv3">
+        <div class="swiper lis">
+          <ul class="swiper-wrapper uswip"></ul>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <section class="footSection">
+        <div>
+          <ul>
+            <li>ABOUT</li>
+            <li>CONTACT</li>
+            <li>HELP</li>
+            <li>CAREERS</li>
+            <li>AD CHOICES</li>
+          </ul>
+          <ul>
+            <li>PRIVACY POLICY</li>
+            <li>COOKIE NOTICE</li>
+            <li>CA NOTICE</li>
+            <li>TERMS OF SERVICE</li>
+          </ul>
+          <ul>
+            <li>ADVERTISE</li>
+            <li>SELECT PERSONAL FINANCE</li>
+          </ul>
+        </div>
+        <div class="iconFooter">
+          <ul>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-whatsapp"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-facebook"></i></li>
+          </ul>
+        </div>
+      </section>
+      <small>Copyright © 2023 PTC.</small>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>

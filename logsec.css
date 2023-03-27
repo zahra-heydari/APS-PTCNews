@@ -1,0 +1,333 @@
+/* html {
+  background-color: black;
+} */
+body {
+  /* background-color: aliceblue; */
+  /* width: 100%; */
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+main {
+  height: 100%;
+  /* background-color: rgb(225, 141, 30); */
+  display: grid;
+  background-color: black;
+  grid-template-columns: 60% 40%;
+  padding: 0;
+}
+#question {
+  /* background-color: rgb(107, 69, 107); */
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.firstform,
+.secondform,
+.thirdform,
+.fourform {
+  /* background-color: rgb(99, 157, 163); */
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+
+  /* background-color: darksalmon; */
+  /* background-color: black; */
+}
+#one,
+#two,
+#three,
+#four {
+  height: 25%;
+  position: relative;
+  /* background-color: darkkhaki; */
+}
+.firstform input,
+.fourform input {
+  width: 99%;
+  display: block;
+  height: 25px;
+  position: absolute;
+  /* top: 40px; */
+  bottom: 0;
+  font-size: 1.3vw;
+  border: none;
+  background-color: black;
+  color: white;
+}
+.firstform form div,
+.fourform form div {
+  height: 50px;
+  /* background-color: aquamarine; */
+  position: relative;
+  margin-top: 20px;
+  border-bottom: 2px solid white;
+}
+.firstform label,
+.fourform label {
+  height: 10px;
+  color: white;
+  /* background-color: midnightblue; */
+}
+.firstform button,
+.fourform button {
+  height: 60px;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  margin-top: 20px;
+  font-size: 1.3vw;
+  border: none;
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+  color: #0071f1;
+  border-bottom: #0071f1 2px solid;
+  font-weight: 200;
+}
+a:focus {
+  color: #0071f1;
+}
+.last {
+  /* background-color: white; */
+  /* position: relative; */
+  height: 100px;
+  margin-top: 20px;
+  border-top: white 2px solid;
+  font-size: 1.3vw;
+}
+.last p {
+  /* position: absolute;
+  left: 35%;
+  top: 10px; */
+  display: block;
+  text-align: center;
+  color: white;
+  white-space: nowrap;
+}
+.last a {
+  /* position: absolute;
+  left: 42%;
+  top: 55px; */
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+.twobut {
+  display: flex;
+  justify-content: space-around;
+}
+
+.twobut button {
+  height: 60px;
+  width: 48%;
+  background-color: blue;
+  color: white;
+  margin-top: 20px;
+  font-size: 1.3vw;
+  border: none;
+  margin-right: 2px;
+  margin-bottom: 20px;
+}
+.secondform p {
+  font-size: 1.3vw;
+  margin-bottom: 2px;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  display: flex;
+}
+.thirdform button {
+  height: 60px;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  margin-top: 50px;
+  font-size: 1.3vw;
+  border: none;
+  margin-bottom: 20px;
+}
+.Day,
+.Month,
+.Year {
+  height: 50px;
+  /* background-color: aquamarine; */
+  position: relative;
+  margin-top: 20px;
+  border-bottom: 2px solid white;
+  width: 45%;
+  margin-right: 2px;
+}
+.Day,
+.Month {
+  margin-right: 20px;
+}
+.thirdform input {
+  height: 25px;
+  position: absolute;
+  bottom: 0;
+  font-size: 1.3vw;
+  border: none;
+  color: white;
+  background-color: black;
+  width: 95%;
+}
+
+legend {
+  font-size: 1.3vw;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.thirdform label {
+  /* background-color: yellow; */
+  height: 20px;
+  top: 0;
+  width: 100%;
+  color: white;
+}
+select {
+  width: 99%;
+  display: block;
+  height: 25px;
+  font-size: 1.3vw;
+  border: none;
+  background-color: black;
+  border-bottom: 2px white solid;
+  color: white;
+  margin-top: 10px;
+}
+
+select:focus {
+  outline: none;
+}
+.fourform p,
+p,
+li {
+  color: white;
+}
+.fourform p {
+  margin-bottom: 2px;
+}
+ul {
+  padding: 15px;
+  padding-top: 0px;
+}
+
+#images {
+  /* position: relative; */
+  /* padding-right: 20px; */
+  /* display: grid;
+  grid-template-rows: auto auto auto; */
+  /* gap: 5px; */
+  height: fit-content;
+}
+/* #images img {
+  width: 80%;
+  height: 20%;
+} */
+#img1 {
+  /* position: absolute; */
+  /* right: 10%; */
+  width: 70%;
+  height: auto;
+}
+
+#img2 {
+  /* position: absolute; */
+  /* top: 15%;
+  right: 10px; */
+  width: 80%;
+  text-align: right;
+  height: auto;
+  /* width: 70%;
+  height: 20%; */
+}
+#img3 {
+  /* left: 10px; */
+  /* top: 350px; */
+  width: 100%;
+  height: 50%;
+  margin: auto;
+  /* width: 40%;
+  height: 30%; */
+}
+#img4 {
+  /* position: absolute; */
+  /* top: 480px; */
+  /* left: 50%; */
+  margin: auto 0;
+  width: 90%;
+  /* width: 40%;
+  height: 40%; */
+}
+#img4 img {
+  height: 60%;
+}
+#lastDiv {
+  height: auto;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 5px;
+}
+#images img {
+  width: 100%;
+  height: auto;
+}
+/* #question {
+  background-color: azure;
+  width: 80%;
+  height: 100%;
+  padding-left: 15%;
+} */
+.iconoheader {
+  background-color: white;
+  color: black;
+  padding: 15px;
+  height: fit-content;
+  font-weight: bolder;
+}
+.logo {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  justify-content: center;
+  /* left: 40%; */
+  gap: 5px;
+  border: none;
+}
+#ps {
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  display: block;
+  font-size: 2vw;
+  text-align: center;
+  /* left: 43.5%; */
+}
+#img2 img {
+  width: 70%;
+}
+button {
+  cursor: pointer;
+}
+@media (width<1122px) {
+  #images {
+    display: none;
+  }
+  main {
+    grid-template-columns: auto;
+  }
+  #question {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
