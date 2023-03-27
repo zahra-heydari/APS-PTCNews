@@ -27,7 +27,7 @@ const wrapper2 = document.querySelector(".uswip");
 const fetchAPI = async function () {
   try {
     fetch(
-      `http://api.weatherapi.com/v1/forecast.json?key=d209d87fcf504c448de63901230603&q=london&days=7`
+      `https://api.weatherapi.com/v1/forecast.json?key=d209d87fcf504c448de63901230603&q=london&days=7`
     )
       .then((response) => response.json())
       .then((data) => {
@@ -43,7 +43,7 @@ fetchAPI();
 const fetchAPIWeather = async function (searchResult) {
   try {
     fetch(
-      `http://api.weatherapi.com/v1/forecast.json?key=d209d87fcf504c448de63901230603&q=${searchResult}&days=7`
+      `https://api.weatherapi.com/v1/forecast.json?key=d209d87fcf504c448de63901230603&q=${searchResult}&days=7`
     )
       .then((response) => response.json())
       .then((data) => {
